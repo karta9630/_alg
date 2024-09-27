@@ -6,7 +6,7 @@ raw
 .pytest_cache
 *.bin
 .cache/
-
+*test.*
 .vscode
 *.exe
 *.exe.stackdump
