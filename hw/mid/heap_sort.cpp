@@ -3,11 +3,7 @@
 #include<algorithm>
 using namespace std;
 
-// void swap(int arr[],int i,int j){
-//     int tmp =arr[i];
-//         arr[i]=arr[j];
-//         arr[j]=tmp;
-// }
+
 //n為樹的節點，i為父節點，要找子節點
 void heap(vector<int>& v, int i,int n){
     if(i>=n) return ;
