@@ -10,4 +10,4 @@ https://medium.com/@ralph-tech/%E6%BC%94%E7%AE%97%E6%B3%95%E5%AD%B8%E7%BF%92%E7%
 ## quick_sort 參考資料
 https://medium.com/@amber.fragments/%E6%BC%94%E7%AE%97%E6%B3%95-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-12-%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F%E6%B3%95-quick-sort-841420575b24
 
-最快nlogn，最慢n^2 原理也是完全理解了，但是直接寫出來有點難度，看著自己的註解，重新寫一遍就可以
+最快nlogn，最慢n^2 理解運作原理，但是直接寫出來有點難度，看著自己的註解，重新寫一遍就可以
