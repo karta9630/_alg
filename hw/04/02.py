@@ -1,8 +1,9 @@
+#蒙地
 import numpy as np
 
+run = 100000  
 def f(x, y, z):
     return 3*x**2+y**2+2*z**2
-run = 100000  
 
 def mnG(f, rx, ry, rz, num_samples):
     x = np.random.uniform(rx[0], rx[1], num_samples)

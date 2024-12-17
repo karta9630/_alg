@@ -23,7 +23,10 @@ def f2(n):
         for _ in range(n):
             for _ in range(n):
                 for _ in range(n):
-                    s = s + 1  # 大量計算
+                     for _ in range(n):
+                         for _ in range(n): 
+                             for _ in range(n):
+                                s = s + 1  # 大量計算
 
 if __name__ == '__main__':
     print('halt(f1, 3) =', halt(f1, 3))  # 簡單的計算，應該完成

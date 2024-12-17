@@ -1,8 +1,9 @@
+#黎曼
 import numpy as np
 
 def f(x,y,z):
     return 3*x**2+y**2+2*z**2
-step=0.003
+step=0.01
 def G(f,rx,ry,rz):
     cnt=0.0
     for x in np.arange(rx[0],rx[1],step):

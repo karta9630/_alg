@@ -17,7 +17,6 @@ def power2n_c(n):
 
 # 方法 3：用遞迴+查表
 def power2n_d(n):
-    
     if n < 0: raise
     if not pow[n] is None: return pow[n]
     pow[n] = power2n_d(n-1)+power2n_d(n-1) 

@@ -8,9 +8,9 @@ def re(n,p):
     if i==n:
         print(p)
     for i in range(n):
-        if not i in p :
+        if not i in p : #0,2,1
             p.append(i)
-            re(n,p)
-            p.pop()
+            re(n,p) #0,1,2
+            p.pop() # 0,1 back->10
 
 main(3)
